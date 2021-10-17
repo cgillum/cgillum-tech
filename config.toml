@@ -5,3 +5,27 @@ theme = "mainroad"
 
 [Permalinks]
   posts = "/:year/:month/:day/:filename"
+
+[Author] # Used in authorbox
+  name = "Chris Gillum"
+  bio = "Principal Software Architect at Microsoft working on Azure App Service and Azure Functions"
+  avatar = "https://www.gravatar.com/avatar/5fc95c3a52c1125b51abd382cc1c0157"
+
+[Params]
+  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+  description = "Chris Gillum's personal blog about Easy Auth (archived)"
+  copyright = "Chris Gillum" # Footer copyright holder, otherwise will use site title
+  twitter_cards = true # Enable Twitter Cards if true
+  authorbox = true # Show authorbox at bottom of pages if true
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  # Enable widgets in given order
+  widgets = ["search", "social"]
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  twitter = "cgillum"
+  linkedin = "chris-gillum"
+  github = "cgillum"
