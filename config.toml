@@ -1,0 +1,7 @@
+baseURL = "https://cgillum.tech/"
+languageCode = "en-us"
+title = "CGillum Tech Blog (Archive)"
+theme = "mainroad"
+
+[Permalinks]
+  posts = "/:year/:month/:day/:filename"
